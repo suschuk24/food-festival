@@ -86,6 +86,28 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/img/food-table.jpg":
+/*!***********************************!*\
+  !*** ./assets/img/food-table.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/image-webpack-loader/index.js):\\nError: Command failed with EOF: C:\\\\Users\\\\susch\\\\OneDrive\\\\Desktop\\\\projects\\\\food-festival\\\\node_modules\\\\mozjpeg\\\\vendor\\\\cjpeg.exe\\nwrite EOF\\n'C:\\\\Users\\\\susch\\\\OneDrive\\\\Desktop\\\\projects\\\\food-festival\\\\node_modules\\\\mozjpeg\\\\vendor\\\\cjpeg.exe' is not recognized as an internal or external command,\\r\\noperable program or batch file.\\n\\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)\");\n\n//# sourceURL=webpack:///./assets/img/food-table.jpg?");
+
+/***/ }),
+
+/***/ "./assets/img/grill.jpg":
+/*!******************************!*\
+  !*** ./assets/img/grill.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/image-webpack-loader/index.js):\\nError: Command failed with EOF: C:\\\\Users\\\\susch\\\\OneDrive\\\\Desktop\\\\projects\\\\food-festival\\\\node_modules\\\\mozjpeg\\\\vendor\\\\cjpeg.exe\\nwrite EOF\\n'C:\\\\Users\\\\susch\\\\OneDrive\\\\Desktop\\\\projects\\\\food-festival\\\\node_modules\\\\mozjpeg\\\\vendor\\\\cjpeg.exe' is not recognized as an internal or external command,\\r\\noperable program or batch file.\\n\\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)\");\n\n//# sourceURL=webpack:///./assets/img/grill.jpg?");
+
+/***/ }),
+
 /***/ "./assets/js/script.js":
 /*!*****************************!*\
   !*** ./assets/js/script.js ***!
@@ -93,7 +115,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function($) {__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\r\n\r\n$(document).ready(function () {\r\n  // First image is hard coded in index.html\r\n  const carouselSlides = [\r\n    {\r\n      title: \"We travel all over the US\",\r\n      subtitle: \"Check out our schedule!\",\r\n      img: \"./assets/img/food-table.jpg\",\r\n      btnText: \"View Schedule\",\r\n      btnUrl: \"schedule.html\"\r\n    },\r\n    {\r\n      title: \"Our food is seriously the bomb!\",\r\n      subtitle: \"What are you waiting for?\",\r\n      img: \"./assets/img/grill.jpg\",\r\n      btnText: \"Purchase Tickets\",\r\n      btnUrl: \"tickets.html\"\r\n    },\r\n  ]\r\n\r\n  if (window.location.href.indexOf(\"index\") > -1) {\r\n    carouselSlides.forEach((slide, i) => {\r\n      $('.carousel-inner').append(`\r\n    <div class=\"carousel-item fullscreen-carousel\" style=\"background-image: url('${slide.img}')\">\r\n      <div class=\"d-flex h-100 align-items-center justify-content-center carousel-caption\">\r\n          <div class=\"container\">\r\n            <div class=\"row align-items-center justify-content-center\">\r\n                <h2 class=\"display-4 mb-2\">${slide.title}</h2>\r\n            </div>\r\n            <div class=\"row align-items-center justify-content-center\"> \r\n              <h3>${slide.subtitle}</h3>\r\n            </div>\r\n            <div class=\" mt-4 row align-items-center justify-content-center\"> \r\n              <a class=\"btn btn-primary\" href=\"${slide.btnUrl}\">\r\n                  ${slide.btnText}\r\n              </a>\r\n            </div>\r\n          </div>\r\n      </div>\r\n    </div>`)\r\n    })\r\n  }\r\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./assets/js/script.js?");
+eval("/* WEBPACK VAR INJECTION */(function($) {__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\r\nconst img1 = __webpack_require__(/*! ../../assets/img/food-table.jpg */ \"./assets/img/food-table.jpg\");\r\nconst img2 = __webpack_require__(/*! ../../assets/img/grill.jpg */ \"./assets/img/grill.jpg\");\r\n\r\n$(document).ready(function() {\r\n  // First image is hard coded in index.html\r\n  const carouselSlides = [\r\n    {\r\n      title: \"We travel all over the US\",\r\n      subtitle: \"Check out our schedule!\",\r\n      img: img1,\r\n      btnText: \"View Schedule\",\r\n      btnUrl: \"schedule.html\"\r\n    },\r\n    {\r\n      title: \"Our food is seriously the bomb!\",\r\n      subtitle: \"What are you waiting for?\",\r\n      img: img2,\r\n      btnText: \"Purchase Tickets\",\r\n      btnUrl: \"tickets.html\"\r\n    },\r\n  ];\r\n  \r\n  carouselSlides.forEach((slide, i) => {\r\n    $('.carousel-inner').append(`\r\n  <div class=\"carousel-item fullscreen-carousel\" style=\"background-image: url('${slide.img}')\">\r\n    <div class=\"d-flex h-100 align-items-center justify-content-center carousel-caption\">\r\n        <div class=\"container\">\r\n          <div class=\"row align-items-center justify-content-center\">\r\n              <h2 class=\"display-4 mb-2\">${slide.title}</h2>\r\n          </div>\r\n          <div class=\"row align-items-center justify-content-center\"> \r\n            <h3>${slide.subtitle}</h3>\r\n          </div>\r\n          <div class=\" mt-4 row align-items-center justify-content-center\"> \r\n            <a class=\"btn btn-primary\" href=\"${slide.btnUrl}\">\r\n                ${slide.btnText}\r\n            </a>\r\n          </div>\r\n        </div>\r\n    </div>\r\n  </div>`)\r\n  })\r\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./assets/js/script.js?");
 
 /***/ }),
 
