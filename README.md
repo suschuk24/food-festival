@@ -31,21 +31,25 @@ Introducing Food Festival. A modularized progressive web application that allows
 
 
 ## Screenshots
-![Landing Page](assets/img/landing-screenshot.jpg)
+![Landing Page](assets/img/landing-screenshot.png)
 
-![Landing Page](assets/img/landing-screenshot-2.jpg)
+![Landing Page Cont](assets/img/landing-screenshot-2.png)
+
+![Schedule](assets/img/schedule-screenshot.png)
+
+![Tickets](assets/img/tickets-screenshot.png)
+
+![Purchase Tickets Modal](assets/img/purchase-modal-screenshot.png)
 
 ### Initial Lighthouse Score before refactor
 ![Initial Lighthouse Score](assets/img/initial-lighthouse.jpg)
 
 ### Final Lighthouse metrics after refactor
-![Final Lighthouse Score Overall](assets/img/final-lighthouse-score.png)
+![Final Lighthouse Score Overall](assets/img/final-lighthouse.png)
 
 ### Final Ligthouse PWA Score
-![Final Lighthouse Score PWA](assets/img/final-lighthouse-score.png)
+![Final Lighthouse Score PWA](assets/img/final-lighthouse-pwa.png)
 
-### PWA Screenshot
-![PWA Screenshot](public/images/pwa-screenshot.jpg)
 
 ## License:
 For more information about licenses, please visit:
